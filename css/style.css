@@ -1,0 +1,51 @@
+h1 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.container-flex {
+  display: flex;
+  width: 1000px;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.box {
+  display: flex;
+  width: 120.5px;
+  height: 70px;
+  margin-top: 5px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.box p {
+  opacity: 0;
+  width: 95%;
+}
+
+.container-flex .box:nth-child(odd) {
+  background-color: #B6EADA;
+}
+
+.container-flex .box:nth-child(even) {
+  background-color: #03001C;
+}
+
+
+.container-flex p:nth-of-type(1):hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  border: solid;
+  border-color: #C69749;
+  color: yellow;
+  font-size: 5em;
+  font-weight: bold;
+  opacity: 1;
+  border-radius: 15px;
+}
